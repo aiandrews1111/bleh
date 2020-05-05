@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Some Page I made Randomly</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <p>Content</p>
-  </body>
+<html>
+<head>
+  <title>Game</title>
+</head>
+
+
+<script>
+
+
+var user = cookie.get('user');
+if (!user) {
+
+  // Ask for the username if there is none set already
+  user = prompt('Choose a username:');
+  if (!user) {
+    alert('We cannot work with you like that!');
+  } else {
+    // Store it in the cookies for future use
+    cookie.set('user', user);
+  }
+}
+
+
+
+var PlayerStats = {
+  Health: 100;
+  Equppied:"Pistol";
+  Speed: 10;
+  Level: 1;
+  Name: "NA";
+};
+
+</script>
 </html>
