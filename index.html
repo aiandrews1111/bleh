@@ -9,7 +9,7 @@
 
 
 var user = cookie.get('user');
-if (user != null) {
+if (user == null) {
 
   // Ask for the username if there is none set already
   user = prompt('Choose a username:');
@@ -24,10 +24,10 @@ if (user != null) {
 
 
 var PlayerStats = {
-  Health: 100;
-  Equppied:"Pistol";
-  Speed: 10;
-  Level: 1;
+  Health: 100,
+  Equppied:"Pistol",
+  Speed: 10,
+  Level: 1,
   Name: "NA";
 };
 
