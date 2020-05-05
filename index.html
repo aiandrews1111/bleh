@@ -13,22 +13,19 @@ if (user == null) {
 
   // Ask for the username if there is none set already
   user = prompt('Choose a username:');
-  if (!user) {
-    alert('We cannot work with you like that!');
-  } else {
-    // Store it in the cookies for future use
-    cookie.set('user', user);
+  cookie.set('user', user);
   }
 }
 
 
 
 var PlayerStats = {
-  Health: 100,
+  
+  HP:100,
   Equppied:"Pistol",
   Speed: 10,
   Level: 1,
-  Name: "NA";
+  Name: "NA",
 };
 
 </script>
