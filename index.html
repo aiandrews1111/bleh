@@ -1,32 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Game</title>
-</head>
-
-
-<script>
-
-
-var user = cookie.get('user');
-if (user == null) {
-
-  // Ask for the username if there is none set already
-  user = prompt('Choose a username:');
-  cookie.set('user', user);
-  }
-}
-
-
-
-var PlayerStats = {
-  
-  HP:100,
-  Equppied:"Pistol",
-  Speed: 10,
-  Level: 1,
-  Name: "NA",
-};
-
-</script>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Practice</title>
+        <link type="text/css" rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li id="Home">Home</li>
+                    <li id="About"><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
 </html>
