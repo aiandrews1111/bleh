@@ -1,0 +1,36 @@
+body {
+    background-color: darkgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    
+}
+
+header nav li {
+    display: inline;
+    padding: 15px;
+}
+
+header a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+header a:active {
+    text-decoration: none;
+    color: black;
+}
